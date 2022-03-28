@@ -1,17 +1,13 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-360";
 
-export default class SocialMedias extends React.Component {
-  render() {
-    return (
-      <View style={styles.panel}>
-        <View style={styles.greetingBox}>
-          <Text style={styles.greeting}>card</Text>
-        </View>
-      </View>
-    );
-  }
-}
+export const SocialMedias = () => (
+  <View style={styles.panel}>
+    <View style={styles.greetingBox}>
+      <Text style={styles.greeting}>Seja bem vindo ao dev_verso</Text>
+    </View>
+  </View>
+);
 
 const styles = StyleSheet.create({
   panel: {
